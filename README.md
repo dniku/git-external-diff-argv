@@ -22,9 +22,4 @@ $ env GIT_EXTERNAL_DIFF=./print_argv.py git diff origin/branch1:file1.txt origin
 path old-file old-hex old-mode new-file new-hex new-mode
 ```
 
-This was reproduced with
-
-```bash
-$ git --version
-git version 2.22.0
-```
+Tested with git 2.22.0 and 2.17.1.
