@@ -16,7 +16,7 @@ $ env GIT_EXTERNAL_DIFF=./print_argv.py git diff origin/branch1:file1.txt origin
  'index 802b1c4..076e8e3 100644\n']
 ```
 
-`git` passes an unexpected set of parameters to `GIT_EXTERNAL_DIFF`. According to [docs](https://www.git-scm.com/docs/git/2.22.0), it should pass 7 parameters:
+`git` passes an unexpected set of parameters to `GIT_EXTERNAL_DIFF`. According to [docs](https://www.git-scm.com/docs/git/2.22.0#Documentation/git.txt-codeGITEXTERNALDIFFcode), it should pass 7 parameters:
 
 ```
 path old-file old-hex old-mode new-file new-hex new-mode
